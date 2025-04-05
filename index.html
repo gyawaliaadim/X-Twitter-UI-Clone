@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-black text-white max-w-[1255px] max-[1280px]:max-w[1078px] mx-auto flex ">
+    <div class="banner flex pt-[2px] max-[1280px]:min-w-[72px]  max-[500px]:h-12 w-[275px] max-[1280px]:w-[72px] max-[500px]:w-[100vw] h-screen max-[500px]:flex-row  max-[500px]:p-0  max-[500px]:fixed max-[500px]:bottom-0 z-10 bg-black ">
+
+        <div class="nav flex flex-col gap-6 w-[275px] max-[1280px]:w-[72px] max-[500px]:w-[100vw] h-screen px-4 py-4  max-[500px]:flex-row  max-[500px]:p-0  max-[500px]:fixed max-[500px]:bottom-0 max-[500px]:h-8  ">
+            <ul display="flex" class="flex flex-col gap-3 text-lg font-bold  max-[500px]:flex-row max-[500px]:justify-between max-[500px]:w-[100vh]">
+                <li>
+                    <div class="flex ">
+                        <div
+                            class="hover:bg-slate-800 cursor-pointer transition-all delay-200 w-12 h-12 flex items-center justify-center rounded-[50%]  max-[500px]:hidden ">
+                            <img class="w-7 h-7" src="assets/svgs/x.svg" alt="">
+                        </div>
+                        <div></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max">
+                        <div
+                            class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0 ">
+                            <img class="w-7 h-7" src="assets/svgs/home.svg" alt="">
+                            <div class="max-[1280px]:hidden">Home</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max">
+                        <div
+                                     class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0 ">
+                            <img class="w-7 h-7" src="assets/svgs/search.svg" alt="">
+                            <div class="max-[1280px]:hidden">Search</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max">
+                        <div
+                        class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0 ">
+                            <img class="w-7 h-7" src="assets/svgs/notifications.svg" alt="">
+                            <div class="max-[1280px]:hidden">Notifications</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max">
+                        <div
+                        class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0 ">
+                            <img class="w-7 h-7" src="assets/svgs/messages.svg" alt="">
+                            <div class="max-[1280px]:hidden">Messages</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max">
+                        <div
+                        class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0 ">
+                            <img class="w-7 h-7" src="assets/svgs/grok.svg" alt="">
+                            <div class="max-[1280px]:hidden">Grok</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max ">
+                        <div
+                        class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0 ">
+                            <img class="w-7 h-7" src="assets/svgs/communities.svg" alt="">
+                            <div class="max-[1280px]:hidden">Communities</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max">
+                        <div
+                        class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0  max-[500px]:hidden">
+                            <img class="w-7 h-7" src="assets/svgs/profile.svg" alt="">
+                            <div class="max-[1280px]:hidden">Profile</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex w-max">
+                        <div
+                        class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0  max-[500px]:hidden">
+                            <img class="w-7 h-7" src="assets/svgs/more.svg" alt="">
+                            <div class="max-[1280px]:hidden">More</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="post  max-[500px]:hidden">
+                <button type="button"
+                    class="hover:bg-slate-200 transition-all delay-75 w-[100%] min-h-[52px] max-[1280px]:hidden rounded-full text-black font-extrabold  h-9 bg-white ">Post</button>
+                <button type="button"
+                    class="hover:bg-slate-200 transition-all delay-75 min-h-[52px] min-w-[52px] hidden max-[1280px]:flex rounded-full bg-white justify-center items-center "><img class="w-7 h-7" src="assets/svgs/post.svg" alt=""></button>
+             
+            </div>
+            <div
+            class="flex items-center gap-2 hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4 max-[1280px]:p-0 justify-center max-[1280px]:w-12 max-[1280px]:h-12 max-[1280px]:gap-0  max-[500px]:hidden ">
+                <div class="profilePicture w-[40px]">
+                    <img class="rounded-full w-[100%] h-auto" src="assets/images/profilePicture.jpg" alt="">
+                </div>
+                <div class="accountName max-[1280px]:hidden">
+                    <span>Aadim Gyawali</span>
+                    <span>@AadimGY</span>
+                </div>
+                <div class="accountMore max-[1280px]:hidden">
+                    <img src="assets/svgs/more.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="main w-[980px] flex  justify-between">
+        <div class="primaryColumn max-w-[600px] outline outline-1 outline-slate-800" overflow-y-auto>
+            <div class="polite flex h-[53px] sticky top-0 bg-black z-10">
+                <div
+                    class="hover:bg-slate-800 transition-all delay-75 cursor-pointer relative politeLeft w-[50%] flex items-center justify-center border-b border-slate-800">
+                    For
+                    you
+                    <div class="min-w-[56px] h-1 absolute bottom-0 self-center bg-blue-600 rounded-full"></div>
+
+                </div>
+                <div
+                    class="hover:bg-slate-800 transition-all delay-75 cursor-pointer politeRight w-[50%] flex items-center justify-center border-b border-slate-800">
+                    Following
+                </div>
+            </div>
+            <div class="tweetBox flex pl-4 pr-4 outline outline-1 outline-slate-800 h-[120px]">
+                <div class="tweetBoxLeft pt-3 mr-2 w-[40px]">
+                    <img class="rounded-full w-[100%] h-auto" src="assets/images/profilePicture.jpg" alt="">
+                </div>
+                <div class="tweetBoxRight relative w-full">
+                    <div class=" relative h-[72px] flex items-center">
+                        <textarea placeholder="What's happening?"
+                            class=" bg-black text-white resize-none outline-none overflow-hidden text-xl w-min"
+                            rows="1"></textarea>
+                    </div>
+                    <div class="tweetBoxBottom flex absolute bottom-2 h-12 w-full">
+                        <div class="tweetBoxBottomLeft flex items-center gap-3 ">
+                            <div
+                                class="w-10 h-10 hover:bg-blue-800 cursor-pointer transition-all delay-75 rounded-[50%] flex justify-center items-center">
+                                <img class="w-5 h-5" src="assets/svgs/image.svg" alt="">
+                            </div>
+                            <div
+                                class="w-10 h-10 hover:bg-blue-800 cursor-pointer transition-all delay-75 rounded-[50%] flex justify-center items-center">
+                                <img class="w-5 h-5" src="assets/svgs/gif.svg" alt="">
+                            </div>
+                            <div
+                                class="w-10 h-10 hover:bg-blue-800 cursor-pointer transition-all delay-75 rounded-[50%] flex justify-center items-center">
+                                <img class="w-5 h-5" src="assets/svgs/grok.svg" alt="">
+                            </div>
+                            <div
+                                class="w-10 h-10 hover:bg-blue-800 cursor-pointer transition-all delay-75 rounded-[50%] flex justify-center items-center">
+                                <img class="w-5 h-5" src="assets/svgs/poll.svg" alt="">
+                            </div>
+                            <div
+                                class="w-10 h-10 hover:bg-blue-800 cursor-pointer transition-all delay-75 rounded-[50%] flex justify-center items-center">
+                                <img class="w-5 h-5" src="assets/svgs/emoji.svg" alt="">
+                            </div>
+                            <div
+                                class="w-10 h-10 hover:bg-blue-800 cursor-pointer transition-all delay-75 rounded-[50%] flex justify-center items-center">
+                                <img class="w-5 h-5" src="assets/svgs/schedule.svg" alt="">
+                            </div>
+                            <div
+                                class="w-10 h-10 hover:bg-blue-800 cursor-pointer transition-all delay-75 rounded-[50%] flex justify-center items-center">
+                                <img class="w-5 h-5" src="assets/svgs/location.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="tweetBoxBottomRight absolute right-0 "><button type="button"
+                                class="hover:bg-slate-200 transition-all delay-75 rounded-full w-[4.5rem] h-9 bg-white font-bold text-black">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post flex pl-4 pr-4 outline outline-1 outline-slate-800 cursor-pointer">
+                <div class="postLeft pt-3 mr-2 w-[40px]">
+                    <img class="rounded-full w-[100%] h-auto" src="assets/images/KMbappe.jpg" alt="">
+                </div>
+                <div class="postRight relative w-full ">
+                    <div class="postRightTop flex items-center justify-between h-7">
+                        <div class="postRightTopLeft flex gap-1">
+                            <div>Kylian Mbappe</div>
+                            <div><img src="assets/svgs/verified.svg" alt=""></div>
+                            <div>@KMbappe</div>
+                            <div>•</div>
+                            <div>19h</div>
+                        </div>
+                        <div class="postRightTopRight flex gap-3 items-center">
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/grok.svg" alt="Grok">
+                            </div>
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postRightMiddle">EL MEJOR CLUB DEL MUNDO 🤍🙏🏽…<br>
+                        @realmadrid</div>
+                    <div class="postRightBottom w-full h-12 ">
+                        <div class="postActions flex justify-between items-center h-full">
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/messages.svg" alt="Messages">
+                                </div>
+                                <span>1.8k</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/repost.svg" alt="Repost">
+                                </div>
+                                <span>11k</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/like.svg" alt="Like">
+                                </div>
+                                <span>122k</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/views.svg" alt="Views">
+                                </div>
+                                <span>1.7k</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/bookmark.svg" alt="Bookmark">
+                                </div>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/share.svg" alt="Share">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post flex pl-4 pr-4 outline outline-1 outline-slate-800 cursor-pointer">
+                <div class="postLeft pt-3 mr-2 w-[40px]">
+                    <img class="rounded-full w-[100%] h-auto" src="assets/images/ShahBalen.jpg" alt="">
+                </div>
+                <div class="postRight relative w-full ">
+                    <div class="postRightTop flex items-center justify-between h-7">
+                        <div class="postRightTopLeft flex gap-1">
+                            <div>Balen Shah</div>
+                            <div><img src="assets/svgs/verified.svg" alt=""></div>
+                            <div>@ShahBalen</div>
+                            <div>•</div>
+                            <div>Oct 3</div>
+                        </div>
+                        <div class="postRightTopRight flex gap-3 items-center">
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/grok.svg" alt="Grok">
+                            </div>
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postRightMiddle">प्रधानमन्त्रीज्यु ,<br>
+
+                        भोको पेट मारेर मलाई हराउन खोज्नु भाकोछ ,<br>
+                        हामी त तपाईंकै मदन भण्डारीको सपना पुरा गर्न हिडेको मन्छे !<br><br>
+
+                        मलाई हराउने ताकमा , देशलाई चै नडुबाउनु होला !!</div>
+                    <div class="postRightBottom w-full h-12 ">
+                        <div class="postActions flex justify-between items-center h-full">
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/messages.svg" alt="Messages">
+                                </div>
+                                <span>268</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/repost.svg" alt="Repost">
+                                </div>
+                                <span>790</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/like.svg" alt="Like">
+                                </div>
+                                <span>5.6k</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/views.svg" alt="Views">
+                                </div>
+                                <span>31k</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/bookmark.svg" alt="Bookmark">
+                                </div>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/share.svg" alt="Share">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post flex pl-4 pr-4 outline outline-1 outline-slate-800 cursor-pointer">
+                <div class="postLeft pt-3 mr-2 w-[40px]">
+                    <img class="rounded-full w-[100%] h-auto" src="assets/images/openAI.jpg" alt="">
+                </div>
+                <div class="postRight relative w-full ">
+                    <div class="postRightTop flex items-center justify-between h-7">
+                        <div class="postRightTopLeft flex gap-1">
+                            <div>Open AI</div>
+                            <div><img src="assets/svgs/verified.svg" alt=""></div>
+                            <div>@openAI</div>
+                            <div>•</div>
+                            <div>Feb 28</div>
+                        </div>
+                        <div class="postRightTopRight flex gap-3 items-center">
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/grok.svg" alt="Grok">
+                            </div>
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postRightMiddle">
+
+                        4o image generation has arrived.<br><br>
+
+                        It's beginning to roll out today in ChatGPT and Sora to all Plus, Pro, Team, and Free users.
+
+                    </div>
+                    <div class="postRightBottom w-full h-12 ">
+                        <div class="postActions flex justify-between items-center h-full">
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/messages.svg" alt="Messages">
+                                </div>
+                                <span>959</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/repost.svg" alt="Repost">
+                                </div>
+                                <span>2.9K</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/like.svg" alt="Like">
+                                </div>
+                                <span>21K</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/views.svg" alt="Views">
+                                </div>
+                                <span>4.7M</span>
+                            </div>
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/bookmark.svg" alt="Bookmark">
+                                </div>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/share.svg" alt="Share">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post flex pl-4 pr-4 outline outline-1 outline-slate-800 cursor-pointer">
+                <div class="postLeft pt-3 mr-2 w-[40px]">
+                    <img class="rounded-full w-[100%] h-auto" src="assets/images/elonmusk.jpg" alt="">
+                </div>
+                <div class="postRight relative w-full ">
+                    <div class="postRightTop flex items-center justify-between h-7">
+                        <div class="postRightTopLeft flex gap-1">
+                            <div>Elon Musk</div>
+                            <div><img src="assets/svgs/verified.svg" alt=""></div>
+                            <div>@elonmusk</div>
+                            <div>•</div>
+                            <div>Apr 2</div>
+                        </div>
+                        <div class="postRightTopRight flex gap-3 items-center">
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/grok.svg" alt="Grok">
+                            </div>
+                            <div
+                                class="w-6 h-6 hover:bg-blue-800 rounded-[50%] justify-center items-center flex cursor-pointer transition-all delay-75">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="postRightMiddle">
+                        As I mentioned several years ago, it increasingly appears that humanity is a biological
+                        bootloader for digital superintelligence
+
+                    </div>
+                    <div class="postRightBottom w-full h-12 ">
+                        <div class="postActions flex justify-between items-center h-full">
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/messages.svg" alt="Messages">
+                                </div>
+                                <span>17K</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/repost.svg" alt="Repost">
+                                </div>
+                                <span>18K</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/like.svg" alt="Like">
+                                </div>
+                                <span>129K</span>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/views.svg" alt="Views">
+                                </div>
+                                <span>10.2M</span>
+                            </div>
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/bookmark.svg" alt="Bookmark">
+                                </div>
+                            </div>
+
+                            <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                                <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                    <img class="w-5 h-5" src="assets/svgs/share.svg" alt="Share">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sideBarColumn max-w-[350px] max-[988px]:hidden pt-2">
+            <div
+                class="search flex items-center justify-center min-w-full h-10 bg-black rounded-full relative text-white border-2 border-solid border-slate-800 mb-4">
+                <img src="/assets/svgs/search.svg" alt="" class="absolute h-[60%] left-[1%]" />
+                <input type="search" placeholder="Search"
+                    class="absolute right-[5%] w-[85%] bg-black border-none text-white text-sm placeholder-slate-600 focus:outline-none ">
+            </div>
+            <div
+                class="premium mb-4 outline outline-1 outline-slate-800 rounded-xl pt-3 pb-3 pl-4 pr-4 flex flex-col gap-4">
+                <h1 class=" font-bold  text-[20px] ">Subscribe to Premium</h1>
+                <h3 class="text-sm">Subscribe to unlock new features and if eligible, receive a share of revenue.</h3>
+                <div class="premiumButton"><button type="button"
+                        class="hover:bg-[#12639a] transition-all delay-75 rounded-full w-24 h-9 bg-[#1d9bf0] font-bold">Subscribe</button>
+                </div>
+            </div>
+            <div
+                class="trending mb-4 outline outline-1 outline-slate-800 rounded-xl pt-3 pb-3 pl-4 pr-4 flex flex-col gap-4">
+                <div class="header  font-bold  text-[20px]">
+                    <h1>What's happening?</h1>
+                </div>
+
+                <div class="trendingList flex flex-col gap-4">
+                    <div class="trendingListItem cursor-pointer flex justify-between items-center">
+
+                        <div class="trendingListItemLeft">
+                            <div class="trendingListItemLeftTop text-xs font-bold text-slate-600">Trending in Nepal
+                            </div>
+                            <div class="trendingListItemLeftTopic">#Scholarships</div>
+                            <div class="trendingListItemLeftBottom text-xs font-bold text-slate-600">20K posts</div>
+                        </div>
+                        <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                            <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trendingListItem cursor-pointer flex justify-between items-center">
+
+                        <div class="trendingListItemLeft">
+                            <div class="trendingListItemLeftTop text-xs font-bold text-slate-600">Business & finance ·
+                                Trending
+                            </div>
+                            <div class="trendingListItemLeftTopic">#Entrepreneurship</div>
+                            <div class="trendingListItemLeftBottom text-xs font-bold text-slate-600">21.1 posts</div>
+                        </div>
+                        <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                            <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trendingListItem cursor-pointer flex justify-between items-center">
+
+                        <div class="trendingListItemLeft">
+                            <div class="trendingListItemLeftTop text-xs font-bold text-slate-600"> 6 · Sports · Trending
+                            </div>
+                            <div class="trendingListItemLeftTopic">Arsenal</div>
+                            <div class="trendingListItemLeftBottom text-xs font-bold text-slate-600">151K posts</div>
+                        </div>
+                        <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                            <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trendingListItem cursor-pointer flex justify-between items-center">
+
+                        <div class="trendingListItemLeft">
+                            <div class="trendingListItemLeftTop text-xs font-bold text-slate-600">Trending in Nepal
+                            </div>
+                            <div class="trendingListItemLeftTopic">BIMSTEC</div>
+                            <div class="trendingListItemLeftBottom text-xs font-bold text-slate-600">36.3 posts</div>
+                        </div>
+                        <div class="flex gap-3 cursor-pointer transition-all delay-75 justify-center items-center">
+                            <div class="w-10 h-10 hover:bg-blue-800 rounded-[50%] justify-center items-center flex">
+                                <img class="w-5 h-5" src="assets/svgs/more.svg" alt="More">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showMore"><a class="text-blue-400" href="#">Show More</a></div>
+                </div>
+            </div>
+            <div
+                class="complementory mb-4 outline outline-1 outline-slate-800 rounded-xl pt-3 pb-3 pl-4 pr-4 flex flex-col gap-4">
+                <div class="header  font-bold  text-[20px]">
+                    <h1>Who to follow?</h1>
+                </div>
+                <div class="complementoryList">
+                    <div
+                        class="complement flex gap-3 justify-between items-center relative hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4">
+                        <div class="complementoryAccountDetails flex gap-3 items-center">
+                            <div class="complemntoryAccountProfilePciture w-[40px]">
+                                <img class="rounded-[50%] w-full h-auto" src="assets/images/ShahBalen.jpg" alt="">
+                            </div>
+                            <div class="complementoryAccountName flex flex-col">
+                                <div>Balen Shah</div>
+                                <div>@ShahBalen</div>
+                            </div>
+                        </div>
+                        <div class="follow right-0 "><button type="button"
+                                class="hover:bg-blue-500 transition-all delay-75 rounded-full w-[4.5rem] h-9 bg-blue-600 font-bold text-black">Follow</button>
+                        </div>
+                    </div>
+
+                    <div
+                        class="complement flex gap-3 justify-between items-center relative hover:bg-slate-800 cursor-pointer transition-all delay-75 rounded-full pt-2 pb-2 pl-4 pr-4">
+                        <div class="complementoryAccountDetails flex gap-3 items-center">
+                            <div class="complemntoryAccountProfilePciture w-[40px]">
+                                <img class="rounded-[50%] w-full h-auto" src="assets/images/KMbappe.jpg" alt="">
+                            </div>
+                            <div class="complementoryAccountName flex flex-col">
+                                <div>Kylian Mbappe</div>
+                                <div>@KMbappe</div>
+                            </div>
+                        </div>
+                        <div class="follow right-0 "><button type="button"
+                                class="hover:bg-blue-500 transition-all delay-75 rounded-full w-[4.5rem] h-9 bg-blue-600 font-bold text-black">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="links mb-4 outline outline-1 outline-slate-800 rounded-xl pt-3 pb-3 pl-4 pr-4 flex flex-wrap gap-3 h-max text-xs">
+                <a href="#" class="text-slate-600">Terms of Service</a>
+                <a href="#" class="text-slate-600">Privacy Policy</a>
+                <a href="#" class="text-slate-600">Cookie Policy</a>
+                <a href="#" class="text-slate-600">Accessibility</a>
+                <a href="#" class="text-slate-600">Ads info</a>
+                <a href="#" class="text-slate-600">More</a>
+                <a href="#" class="text-slate-600">© 2025 X Corp.</a>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
